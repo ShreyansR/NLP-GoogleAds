@@ -1,11 +1,6 @@
-import requests
-import json
-import beautifulscraper
-from bs4 import BeautifulSoup
-import re
 import nltk
 import cog
-import re
+
 
 def nlp(url: str) -> str:
     """
@@ -26,6 +21,7 @@ def nlp(url: str) -> str:
     for key, val in freq.items():
         print(str(key) + ':' + str(val))
     freq.plot(20, cumulative=False)
+
 
 def phone():
     """
