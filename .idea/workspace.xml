@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -59,9 +59,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="415" />
+    <option name="x" value="713" />
     <option name="y" value="23" />
-    <option name="width" value="1528" />
+    <option name="width" value="1532" />
     <option name="height" value="811" />
   </component>
   <component name="ProjectView">
@@ -84,6 +84,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -145,7 +146,7 @@
         <item itemvalue="Python.cog" />
         <item itemvalue="Python.cog" />
         <item itemvalue="Python.cog" />
-        <item itemvalue="Python.googleSearch" />
+        <item itemvalue="Python.cog" />
       </list>
     </recent_temporary>
   </component>
@@ -163,9 +164,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="415" y="23" width="1528" height="811" extended-state="0" />
+    <frame x="713" y="23" width="1532" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15328467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.056254137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,8 +179,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996192" weight="0.32962447" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4988576" weight="0.32962447" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11081619" side_tool="true" visible="true" weight="0.6425591" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.8891838" visible="true" weight="0.6425591" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11052283" side_tool="true" visible="true" weight="0.41585535" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.8894772" visible="true" weight="0.41585535" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -197,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
