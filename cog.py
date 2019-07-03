@@ -31,7 +31,8 @@ def com(url:str) -> str:
 
 
 if __name__ == "__main__":
-    text = com("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
+    keyword = input("Enter keyword: ")
+    text = com("https://www.google.com/search?q="+keyword)
     file = open("StrippedText.txt", "w")
     file.write(text)
     file.close()
