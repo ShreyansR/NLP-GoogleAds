@@ -30,6 +30,17 @@ def com(url:str) -> str:
     return text[273:]     #Temporary value of 273, does not work on all keywords
 
 
+def phone():
+    """
+
+    :return:
+    """
+
+    
+
+
+
+
 if __name__ == "__main__":
     keyword = input("Enter keyword: ")
     text = com("https://www.google.com/search?q="+keyword)
