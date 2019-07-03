@@ -30,7 +30,7 @@ def com() -> str:
     chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
-    return text
+    return text[273:]
 
 
 if __name__ == "__main__":
