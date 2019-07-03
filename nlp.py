@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import nltk
 import cog
-
+import re
 
 def nlp(url: str) -> str:
     """
@@ -13,6 +13,7 @@ def nlp(url: str) -> str:
     """
     text = cog.com(url)
     tokens = [t for t in text.split()]
+    print(tokens)
 
     # plots the frequency of key words
     from nltk.corpus import stopwords
@@ -54,5 +55,5 @@ def other():
     nltk.download()
 
 
-# if __name__ == "__main__":
-    # nlp("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
+if __name__ == "__main__":
+    nlp("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
