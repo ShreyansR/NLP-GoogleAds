@@ -26,3 +26,7 @@ def com() -> None:
     file.write(text)
     file.close()
     print(text)
+
+
+if  __name__=="__main__":
+    com()
