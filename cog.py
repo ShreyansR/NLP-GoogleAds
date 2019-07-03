@@ -2,6 +2,7 @@ import requests
 import json
 import beautifulscraper
 from bs4 import BeautifulSoup
+import re
 
 def com() -> None:
 
@@ -10,7 +11,12 @@ def com() -> None:
     response = requests.get(vision_base_url)
     print(response)
     soup = BeautifulSoup(response.text)
-    print(soup)
+
+    for script in soup(["script", "style"]):
+        script.decompose()
+
+    text = soup.get_text("|", strip=True)
+    print(text)
 
     # analysis = response.json()
     # print(json.dumps(analysis))
