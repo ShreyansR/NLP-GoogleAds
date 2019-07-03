@@ -33,11 +33,3 @@ def com(url: str) -> str:
         print("error: response times out")
 
 
-
-if __name__ == "__main__":
-    keyword = input("Enter keyword: ")
-    other = com("https://www.google.com/search?q="+keyword)
-    file = open("StrippedText.txt", "w")
-    file.write(other)
-    file.close()
-    print(other)
