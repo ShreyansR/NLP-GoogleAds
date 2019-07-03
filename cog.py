@@ -14,7 +14,7 @@ def com(url:str) -> str:
 
     # make sure response is 200 OK
     print(response)
-    soup = BeautifulSoup(response.text)
+    soup = BeautifulSoup(response.text, "html.parser")
 
     # cuts the scripts out
     for script in soup(["script", "style"]):

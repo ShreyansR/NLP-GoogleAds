@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf36aad-1a4f-445c-aa1c-52500637d6a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrippedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StrippedText.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cog.py" beforeDir="false" afterPath="$PROJECT_DIR$/cog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="111">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -61,8 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
-    <option name="y" value="25" />
+    <option name="x" value="702" />
+    <option name="y" value="23" />
     <option name="width" value="1532" />
     <option name="height" value="811" />
   </component>
@@ -166,10 +164,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="25" width="1532" height="811" extended-state="0" />
+    <frame x="702" y="23" width="1532" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1482462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1482462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -182,7 +180,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996192" weight="0.32962447" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4988576" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11052283" side_tool="true" visible="true" weight="0.41585535" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.8894772" visible="true" weight="0.41585535" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.8894772" visible="true" weight="0.41585535" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -208,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="111">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
