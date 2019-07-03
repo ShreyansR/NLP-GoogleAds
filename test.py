@@ -9,7 +9,8 @@ def com(url: str) -> str:
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
     html = (soup.prettify())
-    lol = soup.findAll('div', attrs={'class':'ZINbbc'})
+    print(html)
+    lol = soup.findAll('div', attrs={'class':'MUxGbd yDYNvb aLF0Z'})
     thing = ''
     for item in lol:
         thing += item.text + "\n" + "\n"
