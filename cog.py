@@ -21,4 +21,8 @@ def com() -> None:
 
     chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
     text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    file = open("StrippedText.txt", "w")
+    file.write(text)
+    file.close()
     print(text)
