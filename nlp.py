@@ -26,9 +26,21 @@ def nlp(url: str) -> str:
         print(str(key) + ':' + str(val))
     freq.plot(20, cumulative=False)
 
+def phone():
+    """
 
-# downloads nltk packages
+    :return:
+    """
+    text = cog.com("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
+    print(type(text))
+
+
 def other():
+    """
+    downloads nltk packages
+    :return:
+    """
+
     import nltk
     import ssl
 
@@ -42,5 +54,5 @@ def other():
     nltk.download()
 
 
-if __name__ == "__main__":
-    nlp("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
+# if __name__ == "__main__":
+    # nlp("https://www.google.com/search?q=phone+plans&oq=phone+plans&aqs=chrome.0.69i59j0l5.2207j0j7&sourceid=chrome&ie=UTF-8")
