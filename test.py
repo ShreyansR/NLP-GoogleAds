@@ -1,6 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import io
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+stopwords = set(stopwords.words('english'))
 
 def com(url: str) -> str:
     """
@@ -8,14 +16,8 @@ def com(url: str) -> str:
     """
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
-<<<<<<< HEAD
-    html = (soup.prettify())
-    print(html)
-    lol = soup.findAll('div', attrs={'class':'MUxGbd yDYNvb aLF0Z'})
-=======
 
     lol = soup.findAll('div', attrs={'class':'ZINbbc'})
->>>>>>> f986b772f9de95e09b76c0142b7de5b8f69df21c
     thing = ''
     for item in lol:
         # clean = item.text + "\n" + "\n"
@@ -25,13 +27,21 @@ def com(url: str) -> str:
 
         if item.findAll("div", attrs={'class': "MUxGbd"}):
             thing += item.text + "\n" + "\n"
-    print(thing)
+
+    #print(thing)
     return thing
 
 
 if __name__ == "__main__":
     keyword = input("Enter keyword: ")
     other = com("https://www.google.com/search?q="+keyword)
+    other = other.replace("|", "")
     file = open("StrippedText.txt", "w")
     file.write(other)
+    tokens = word_tokenize(other)
+    freq = nltk.FreqDist(tokens)
+    wordcloud = WordCloud().generate_from_frequencies(freq)
+    plt.imshow(wordcloud)
+    plt.axis("off")
+    plt.show()
     file.close()
